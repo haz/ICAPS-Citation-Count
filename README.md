@@ -5,7 +5,7 @@ Scrapes Google Scholar for the citation count of all papers at a particular ICAP
 Uncomment at least one of the `gen_csv` lines in icaps-scrape.py and execute the file. Add more years, as necessary, at the top of the file.
 
 ## Notes
-* The **Result** column is one of the following:
+* The value in the **Result** column will be one of the following:
   * `SINGLE` if only one result is returned (expected)
   * `MULTI` for multiple results (should be manually verified to get the citation count)
   * `NONE` if for some reason the title returns nothing on Google Scholar
